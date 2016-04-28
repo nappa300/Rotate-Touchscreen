@@ -8,9 +8,10 @@ If you were to only rotate the display, for example with `xrandr -o left`, you w
 
 ###Example
 Compile <br/>
- `gcc -o rotate rotate.c`
+ `gcc -o rotate rotate.c`<br/>
 Use <br/>
-./rotate inverted
+`./rotate inverted`<br/>
+`./rotate normal`
 
 
 How to make this a terminal command:
