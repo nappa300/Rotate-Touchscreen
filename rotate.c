@@ -105,10 +105,10 @@ void orientTouchInputInDirection(char* direction){
     }
     
     char* rotationMatrix = matrix[position];
-    printf("%s", rotationMatrix);
+    //printf("%s", rotationMatrix);
     
     char* touchscreenID = runCommandAndReturnString("xinput --list | grep -m3 'Touchscreen' | tail -n1 | grep -o 'id=[0-9]\\+' | grep -o '[0-9]\\+'");
-    printf("\n%s\n", touchscreenID);
+    //printf("\n%s\n", touchscreenID);
     
     
     
